@@ -23,9 +23,7 @@ hr{
      border: 2px outset black;
 }
 menu{
-    text-align: center;
-    background-origin: padding-box;
-    scrollbar-color: red;
-
+    overflow-x: initial;
+    display: -moz-inline-grid;
 }
 
