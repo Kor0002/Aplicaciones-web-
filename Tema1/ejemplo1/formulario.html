@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="menu">
+
+        <ul>
+        <li>
+            <a href="index.html">Inicio</a><br>
+        </li>
+        <li>
+            <a href="contacto.html">Contacto</a>
+        </li>
+        <li>
+             <a href="formulario.html">Formulario</a>
+        </li>
+           
+        
+    </ul>
+
+    </div>
+    <form action="datos.php" method="get">
+        <h3><label for="">Curso Medac</label></h3>
+        <input type="text" name="cmdac" id="cmdac" placeholder="SMR">
+         <h3><label for="">Curso Medac</label></h3>
+        <input type="text" name="cmdac" id="cmdac" placeholder="Aplicacion Web"><br>
+        <br>
+        <button type="button" onclick="alert('Datos enviados')">Enviar Datos</button>
+    </form>
+    <hr>
+    <h3>Mis datos</h3>
+    <div class="formulario">
+        
+        <form action="">
+            <ol>
+                <li>
+                    <p>Nombre:</p> <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </li>
+               
+                <li>
+                    <p>Correo electronico:</p> <input type="email" name="email" id="email" placeholder="Email">
+                </li>
+                
+                <li>
+                    <p>Telefono:</p> <input type="text" name="Telefono" id="Telefono" placeholder="+34000000000">
+                </li>
+                
+            </ol>
+        </form>
+        <div>
+            
+        </div>
+    </div>
+    <br>
+    <h3>Forma de pago</h3> 
+    <div class="formadepago">
+          <form action="datos.php" method="get">
+            <ol>
+                <li>
+                    <p>Tarjeta de credito:</p>
+                </li>
+                <ul class="opciones">
+                    <li>
+                        <input type="checkbox" name="" id="">Visa
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">American Express
+                    </li>
+                    <li>   
+                        <input type="checkbox" name="" id="">Master Card
+                    </li>
+                </ul>
+                
+                <li>
+                   <p>Numero De Tarjeta:</p>  <input type="email" name="email" id="email" placeholder="Numero de Tarjeta">
+                </li>
+                
+                <li>
+                    <p>Codigo De Tarjeta:</p> <input type="text" name="Telefono" id="Telefono" placeholder="Codigo Tarjeta">
+                </li>
+                
+                <li>
+                   <p> Nombre de la Tarjeta:</p> <input type="text" name="nombre terjeta" id="Tarjeta" placeholder="Nombre de la tarjeta ">
+                </li>
+            </ol>
+        </form>
+
+    </div>
+    <br>
+    <button type="button">Comprar</button>
+</body>
+</html>

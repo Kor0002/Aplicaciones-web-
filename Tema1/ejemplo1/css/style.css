@@ -1,0 +1,31 @@
+
+h1{
+    color: blue;
+}
+.estilocapa{
+   border: 2px outset blue;
+   color: lightgreen;
+}
+.estilocapa p{
+    color: black;
+}
+
+hr{
+    border: 2px outset black;
+}
+.formulario{
+    border: 2px outset black;
+}
+.formadepago{
+    border: 2px outset black;
+}
+.opciones{
+     border: 2px outset black;
+}
+.menu{
+    text-align: center;
+    overflow: hidden;
+    outline: auto;
+    position: sticky;
+}
+
