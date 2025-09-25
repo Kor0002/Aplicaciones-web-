@@ -7,36 +7,32 @@
     <title>Formulario</title>
 </head>
 <body>
-    <div class="menu">
-
-        <ul>
-        <li>
-            <a href="index.html">Inicio</a><br>
-        </li>
-        <li>
-            <a href="contacto.html">Contacto</a>
-        </li>
-        <li>
-             <a href="formulario.html">Formulario</a>
-        </li>
-           
-        
-    </ul>
+    <div>
+       <menu type="toolbar">
+        <a href="index.html">Inicio</a><br>
+        <a href="contacto.html">Contacto</a><br>
+        <a href="formulario.html">Formulario</a><br>
+       </menu>
 
     </div>
     <form action="datos.php" method="get">
-        <h3><label for="">Curso Medac</label></h3>
+        <fieldset>
+            <legend> Formulario Curso Medac</legend>
+             <h3><label for="">Curso Medac</label></h3>
         <input type="text" name="cmdac" id="cmdac" placeholder="SMR">
          <h3><label for="">Curso Medac</label></h3>
         <input type="text" name="cmdac" id="cmdac" placeholder="Aplicacion Web"><br>
         <br>
         <button type="button" onclick="alert('Datos enviados')">Enviar Datos</button>
+        </fieldset>
     </form>
     <hr>
-    <h3>Mis datos</h3>
-    <div class="formulario">
-        
-        <form action="">
+    <div>
+        <fieldset>
+            <legend>
+                Mis Datos
+            </legend>
+            <form action="">
             <ol>
                 <li>
                     <p>Nombre:</p> <input type="text" name="nombre" id="nombre" placeholder="Nombre">
@@ -52,19 +48,25 @@
                 
             </ol>
         </form>
+        </fieldset>
+        
+        
+        
         <div>
             
         </div>
     </div>
     <br>
     <h3>Forma de pago</h3> 
-    <div class="formadepago">
-          <form action="datos.php" method="get">
+    <div>
+        <fieldset>
+            <legend>Forma de pago</legend>
+            <form action="datos.php" method="get">
             <ol>
                 <li>
-                    <p>Tarjeta de credito:</p>
-                </li>
-                <ul class="opciones">
+                <fieldset>
+                    <legend>Tarjeta de credito</legend>
+                     <ul>
                     <li>
                         <input type="checkbox" name="" id="">Visa
                     </li>
@@ -75,6 +77,9 @@
                         <input type="checkbox" name="" id="">Master Card
                     </li>
                 </ul>
+                
+                </fieldset>
+               </li>
                 
                 <li>
                    <p>Numero De Tarjeta:</p>  <input type="email" name="email" id="email" placeholder="Numero de Tarjeta">
@@ -90,7 +95,18 @@
             </ol>
         </form>
 
+        </fieldset>
+          
     </div>
+    <br>
+    <fieldset>
+        <legend>Lista Despegable</legend>
+        <select name="" id="">
+        <option value="modulo1">Sistema Operativa en Web </option>
+        <option value="modulo2">Aplicaciones Web</option>
+        <option value="modulo3">Sistema Informatico</option>
+    </select>
+    </fieldset>
     <br>
     <button type="button">Comprar</button>
 </body>

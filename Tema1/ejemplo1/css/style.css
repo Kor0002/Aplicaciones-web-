@@ -22,10 +22,10 @@ hr{
 .opciones{
      border: 2px outset black;
 }
-.menu{
+menu{
     text-align: center;
-    overflow: hidden;
-    outline: auto;
-    position: sticky;
+    background-origin: padding-box;
+    bo
+
 }
 
