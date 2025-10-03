@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #3F5EFB;
+    background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(173, 80, 167, 1) 49%, rgba(252, 70, 107, 1) 96%);
+    margin: 0;
+    padding: 0;
+}
+menu {
+    background-color: #000000;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+    size: 25px;
+}
+td{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.ipe{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    color: rgb(238, 175, 175);
+ 
+}
+.sor{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    color: rgb(5, 243, 13);
+}
+.ing{
+     padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    color: rgb(2, 10, 255);
+}
+.apw{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    color: rgb(251, 0, 180);
+}
+.fp{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    color: chocolate;
+}
+.se{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    color: brown;
+}
+.si{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    color: darkslateblue;
+}
+.p{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    color: aliceblue;
+}
