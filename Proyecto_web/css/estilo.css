@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background: #3F5EFB;
-    background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(173, 80, 167, 1) 49%, rgba(252, 70, 107, 1) 96%);
+    background: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     margin: 0;
     padding: 0;
 }
@@ -22,7 +22,7 @@ menu a {
 table {
     margin: 20px auto;
     border-collapse: collapse;
-    background-color: gray;
+    background-color: darksalmon;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -84,4 +84,8 @@ td{
     border: 1px solid black;
     text-align: center;
     color: aliceblue;
+}
+.semana{
+    background-color: darkkhaki;
+    color: rgb(255, 255, 255);
 }
