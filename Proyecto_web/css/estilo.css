@@ -88,4 +88,30 @@ td{
 .semana{
     background-color: darkkhaki;
     color: rgb(255, 255, 255);
+    }
+
+.encabezado{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 4px 8px #000000;
+}
+.boton{
+    background-color: rgb(4, 0, 244);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px;
+    margin: 10px;
+}
+.Formulario{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 4px 8px #000000;
 }
