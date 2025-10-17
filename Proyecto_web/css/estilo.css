@@ -7,16 +7,21 @@ body {
 }
 menu {
     background-color: #000000;
-    padding: 15px;
+    padding: 50px;
     justify-content: center;
     text-align: center;
     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 20px;
 }
 
 menu a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+.menu:hover{
+    animation-delay: 20;
 }
 
 table {
@@ -29,11 +34,15 @@ table {
 button{
     size: 25px;
 }
-td{
+.td{
     padding: 10px;
     border: 1px solid black;
     text-align: center;
+    transition: transform 0.8s, background-color 2s;
 
+}
+.td:hover{
+    transform: rotate(120deg);
 }
 
 .ipe{
@@ -41,49 +50,81 @@ td{
     border: 1px solid black;
     text-align: center;
     color: rgb(238, 175, 175);
+    transition: transform 0.8s, background-color 2s;
  
+}
+.ipe:hover{
+    transform: rotate(120deg);
 }
 .sor{
     padding: 10px;
     border: 1px solid black;
     text-align: center;
     color: rgb(5, 243, 13);
+    transition: transform 0.8s, background-color 2s;
+}
+.sor:hover{
+    transform: rotate(120deg);
 }
 .ing{
      padding: 10px;
     border: 1px solid black;
     text-align: center;
     color: rgb(2, 10, 255);
+    transition: transform 0.8s, background-color 2s;
+}
+.ing:hover{
+    transform: rotate(120deg);
 }
 .apw{
     padding: 10px;
     border: 1px solid black;
     text-align: center;
     color: rgb(251, 0, 180);
+    transition: transform 0.8s, background-color 2s;
+}
+.apw:hover{
+    transform: rotate(120deg);
 }
 .fp{
     padding: 10px;
     border: 1px solid black;
     text-align: center;
     color: chocolate;
+    transition: transform 0.8s, background-color 2s;
+}
+.fp:hover{
+    transform: rotate(120deg);
 }
 .se{
     padding: 10px;
     border: 1px solid black;
     text-align: center;
     color: brown;
+    transition: transform 0.8s, background-color 2s;
+}
+.se:hover{
+    transform: rotate(120deg);
 }
 .si{
     padding: 10px;
     border: 1px solid black;
     text-align: center;
     color: darkslateblue;
+    transition: transform 0.8s, background-color 2s;
+}
+.si:hover{
+    transform: rotate(120deg);
 }
 .p{
     padding: 10px;
     border: 1px solid black;
     text-align: center;
     color: aliceblue;
+    transition: transform 0.8s, background-color 2s;
+}
+.p:hover{
+    transform: rotate(120deg);
 }
 .semana{
     background-color: darkkhaki;
@@ -114,4 +155,19 @@ td{
     margin: 10px;
     padding: 10px;
     box-shadow: 2px 4px 8px #000000;
+}
+.Formulario label{
+    margin: 20px;
+    color: #000000;
+
+}
+.horario{
+    text-shadow: #000000;
+    border-radius: 20px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
